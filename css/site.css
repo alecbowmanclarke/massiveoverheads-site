@@ -23,3 +23,15 @@
 /* V0.5 — locked paired-letter wordmark grammar: IV / EA */
 .brand .wordmark-fixed{letter-spacing:0;font-size:18px;font-weight:800;white-space:nowrap}
 @media(max-width:760px){.brand .wordmark-fixed{font-size:14px;letter-spacing:0}}
+
+/* WEB DAY V0.6 — footer + resource grid */
+.outside-resources{margin-top:54px;padding-top:28px;border-top:2px solid #111}.outside-resources>p{max-width:980px;line-height:1.25}.resource-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #111;margin-top:24px}.resource-grid a{min-height:150px;padding:24px;text-decoration:none;border-right:1px solid #111;border-bottom:1px solid #111;display:flex;flex-direction:column;gap:14px}.resource-grid a:nth-child(3n){border-right:0}.resource-grid a:nth-last-child(-n+3){border-bottom:0}.resource-grid a:hover{background:#f3f3f3}.resource-grid b{font-size:17px;letter-spacing:.08em}.resource-grid span{font-size:16px;line-height:1.25}.universal-footer__meta{max-width:100%}.universal-footer__links{display:flex;gap:24px;flex-wrap:wrap;margin-top:8px;font-size:12px;font-weight:800}.universal-footer__links a{margin:0}
+@media(max-width:760px){.resource-grid{grid-template-columns:1fr}.resource-grid a,.resource-grid a:nth-child(3n),.resource-grid a:nth-last-child(-n+3){border-right:0;border-bottom:1px solid #111;min-height:0}.resource-grid a:last-child{border-bottom:0}.universal-footer__links{gap:18px}}
+
+/* WEB DAY V0.7 — full footer labels */
+.universal-footer__links{display:flex!important;column-gap:28px!important;row-gap:8px!important;flex-wrap:wrap!important;margin-top:8px!important;font-size:12px!important;font-weight:800!important}.universal-footer__links a{margin:0!important}
+@media(max-width:760px){.universal-footer__links{column-gap:18px!important;row-gap:7px!important;font-size:11px!important}}
+
+/* WEB DAY V0.8 — full social footer */
+.universal-footer__links{font-size:12px!important;column-gap:26px!important;row-gap:8px!important}.universal-footer__links a{white-space:nowrap}
+@media(max-width:800px){.universal-footer__links{font-size:10px!important;column-gap:15px!important;row-gap:6px!important}}
