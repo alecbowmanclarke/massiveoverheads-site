@@ -116,3 +116,8 @@
 .nigel__record article>div:last-child{min-width:0}
 .nigel__record h2{overflow-wrap:anywhere;line-height:1.2}
 .nigel__record p{line-height:1.35}
+
+/* About introduction: company statement followed directly by People. */
+.about-mo__intro{grid-template-columns:130px minmax(0,1fr)}
+.about-mo__statement p+p{margin-top:1em}
+@media(max-width:860px){.about-mo__intro{grid-template-columns:1fr}}
